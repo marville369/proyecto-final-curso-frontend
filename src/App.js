@@ -140,10 +140,10 @@ export default function App() {
                   {g.description ? ` — ${g.description}` : ''}
                   <div style={{ marginTop: 8 }}>
                     <button onClick={() => addReview(g.id)} style={{ marginRight: 8 }}>
-                      ⭐ Reseñar
+                    ⭐ Reseñar
                     </button>
                     <button onClick={() => deleteGame(g.id)} style={{ background: '#ff6b6b' }}>
-                      🗑️ Eliminar
+                    🗑️ Eliminar
                     </button>
                   </div>
                 </li>
@@ -155,3 +155,4 @@ export default function App() {
     </div>
   );
 }
+
