@@ -18,9 +18,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
-    "preview": "vite preview",
-     "homepage": "https://marville369.github.io/proyecto-final-curso-frontend"
+    "preview": "vite preview"
+    
   },
+ "homepage": "https://marville369.github.io/proyecto-final-curso-frontend",
+  
   "eslintConfig": {
     "extends": [
       "react-app",
